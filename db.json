@@ -1,0 +1,24 @@
+{
+  "swapiChars": [
+    {
+      "id": 2,
+      "complete": false,
+      "name": "R2-D2",
+      "url": "https://swapi.co/api/people/3/"
+    },
+    {
+      "id": 3,
+      "complete": false,
+      "name": "Darth Vader",
+      "url": "https://swapi.co/api/people/4/"
+    },
+    {
+      "name": "Anakin",
+      "id": 5
+    },
+    {
+      "name": "Ibsen Gonzalez(Ups)",
+      "id": 6
+    }
+  ]
+}

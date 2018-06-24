@@ -1,0 +1,9 @@
+<section class="swapiapp">
+  <app-header (add)="onAddSwapiChar($event)" ></app-header>
+  <app-list
+    [swapiChars]="swapiChars"
+    (remove)="onRemoveSwapiChar($event)"
+    (toggleComplete)="onToggleSwapiCharComplete($event)">
+  </app-list>
+  <app-footer [swapiChars]="swapiChars"></app-footer>
+</section>

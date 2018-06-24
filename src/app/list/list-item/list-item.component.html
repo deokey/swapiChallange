@@ -1,0 +1,9 @@
+<div class="view">
+  <input
+    class="toggle"
+    type="checkbox"
+    (click)="onToggleSwapiCharComplete(swapiChar)"
+    [checked]="swapiChar.complete" >
+  <label>{{ swapiChar.name }}</label>
+  <button class="destroy" (click)="onRemoveSwapiChar(swapiChar)"></button>
+</div>

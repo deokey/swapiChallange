@@ -1,0 +1,10 @@
+<section class="list-container" *ngIf="swapiChars.length > 0">
+  <ul class="swapi-list">
+    <li *ngFor="let swapiChar of swapiChars" [class.completed]="swapiChar.complete">
+      <app-list-item
+        [swapiChar]="swapiChar"
+        (toggleComplete)="onToggleSwapiCharComplete($event)"
+        (remove)="onRemoveSwapiChar($event)"></app-list-item>
+    </li>
+  </ul>
+</section>
